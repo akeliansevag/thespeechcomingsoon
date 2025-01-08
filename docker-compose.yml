@@ -1,6 +1,7 @@
 services:
   thespeechcomingsoon:
     container_name: thespeechcomingsoon
+    restart: always
     build:
       context: .
       dockerfile: Dockerfile
