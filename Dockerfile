@@ -9,7 +9,7 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
     docker-php-ext-install intl pdo_mysql mysqli
-
+EXPOSE 80
 RUN a2enmod rewrite
 
 
