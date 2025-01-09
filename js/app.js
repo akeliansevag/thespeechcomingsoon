@@ -65,7 +65,7 @@ try {
 try {
   if(document.getElementById("days")){
       // The data/time we want to countdown to
-      var eventCountDown = new Date("January 10, 2025 16:00:00").getTime();
+      var eventCountDown = new Date("January 13, 2025 16:00:00").getTime();
 
       // Run myfunc every second
       var myfunc = setInterval(function () {
